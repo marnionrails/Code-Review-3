@@ -33,10 +33,28 @@ The program returns a range of numbers from 0 to the user's inputted number
  * Input: "4"
  * Output: "0, Beep, Boop, Won't you be my neighbor, 4"
 
- Following the heirarchy rule explained in the description though, if the user inputs a number that includes 1/2/3 together, the larger number will be evaluated for the replacement phrase.
+ Following the heirarchy rule explained in the description though, if the user inputs a number that includes any of 1/2/3 together, the larger number will be evaluated for the replacement phrase.
 
  * Input: "12"
  * Output: "0,Beep,Boop,Won't you be my neighbor?,4,5,6,7,8,9,Beep,Beep,Boop"
 
  * Input: "13"
  * Output: "0,Beep,Boop,Won't you be my neighbor?,4,5,6,7,8,9,Beep,Beep,Boop,Won't you be my neighbor?"
+
+ ## Setup/Installation
+
+ * Clone repository: https://github.com/marnionrails/Code-Review-3
+ * Open index.html
+ * Input number of your choice to view output
+
+ ## Technologies Used
+
+ * HTML/CSS
+ * JavaScript
+ * Bootstrap
+ * VS Code
+
+ ## License
+
+ This software is licensed under the MIT license.
+ Copyright(c) 2020 Marni Sucher
